@@ -150,7 +150,7 @@ static NSString* kStringBoundary = @"3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f";
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (NSData*)generatePostBody {
+- (NSData*)generateMultipartPostBody {
   NSMutableData* body = [NSMutableData data];
   NSString* beginLine = [NSString stringWithFormat:@"\r\n--%@\r\n", kStringBoundary];
 
@@ -221,13 +221,34 @@ static NSString* kStringBoundary = @"3i2ndDfv2rTHiSisAbouNdArYfORhtTPEefj3q2f";
   return body;
 }
 
-
+- (NSData *)generateURLEncodedBody {
+	NSMutableString *body = [NSMutableString string];
+	for (NSString *key in [_parameters allKeys]) {
+		if (body.length > 0)
+			[body appendString:@"&"];
+		[body appendString:[NSString stringWithFormat:@"%@=%@", 
+							[key stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding], 
+							[[_parameters objectForKey:key] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+	}
+	return [body dataUsingEncoding:NSUTF8StringEncoding];
+}
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (NSMutableDictionary*)parameters {
   if (!_parameters) {
     _parameters = [[NSMutableDictionary alloc] init];
   }
   return _parameters;
+}
+
+// JAB: Need to support URLEncoded messages
+- (NSData*)generatePostBody {
+	if ( [@"application/x-www-form-urlencoded" compare:_contentType] == NSOrderedSame )
+	{
+		return [self generateURLEncodedBody];
+	}
+	else {
+		return [self generateMultipartPostBody];
+	}
 }
 
 
