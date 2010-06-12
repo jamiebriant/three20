@@ -43,7 +43,7 @@
 		6EB460DA1183D8CB00685649 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF31F3A0F352DF5000DE5D2 /* libThree20Core.a */; };
 		6EDAE9C7118CA1720008133C /* TTGlobalCoreRects.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDAE9C6118CA1720008133C /* TTGlobalCoreRects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EDAE9C9118CA1790008133C /* TTGlobalCoreRects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAE9C8118CA1790008133C /* TTGlobalCoreRects.m */; };
-		7D2F271E11C32D4E00E4AB24 /* CategoryFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2F271D11C32D4E00E4AB24 /* CategoryFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D0F232E11C41E3D00B2F14F /* CategoryFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0F232D11C41E3D00B2F14F /* CategoryFix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +99,7 @@
 		6EC8E92411AB936D00A5AD2C /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 		6EDAE9C6118CA1720008133C /* TTGlobalCoreRects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTGlobalCoreRects.h; path = Headers/TTGlobalCoreRects.h; sourceTree = "<group>"; };
 		6EDAE9C8118CA1790008133C /* TTGlobalCoreRects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTGlobalCoreRects.m; path = Sources/TTGlobalCoreRects.m; sourceTree = "<group>"; };
-		7D2F271D11C32D4E00E4AB24 /* CategoryFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryFix.h; sourceTree = "<group>"; };
+		7D0F232D11C41E3D00B2F14F /* CategoryFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryFix.h; path = Headers/CategoryFix.h; sourceTree = "<group>"; };
 		BEF31F3A0F352DF5000DE5D2 /* libThree20Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree20Core.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9E6C6210B6A8F800DE563C /* CoreUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -189,6 +189,7 @@
 		6ED117D21183BDBF0096AEBF /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				7D0F232D11C41E3D00B2F14F /* CategoryFix.h */,
 				6E178E771183C8D3003B099E /* TTCorePreprocessorMacros.h */,
 				6E178E781183C8DA003B099E /* TTGlobalCore.h */,
 				6E178E7B1183C8E5003B099E /* TTGlobalCore.m */,
@@ -198,7 +199,6 @@
 				6E178E7D1183C8E5003B099E /* TTGlobalCorePaths.m */,
 				6EDAE9C6118CA1720008133C /* TTGlobalCoreRects.h */,
 				6EDAE9C8118CA1790008133C /* TTGlobalCoreRects.m */,
-				7D2F271D11C32D4E00E4AB24 /* CategoryFix.h */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				6E6454561184BE8600F08CB1 /* Three20Core+Additions.h in Headers */,
 				6EDAE9C7118CA1720008133C /* TTGlobalCoreRects.h in Headers */,
 				6E607CF211AF2FE400C93CD4 /* TTEntityTables.h in Headers */,
-				7D2F271E11C32D4E00E4AB24 /* CategoryFix.h in Headers */,
+				7D0F232E11C41E3D00B2F14F /* CategoryFix.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
