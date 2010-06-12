@@ -597,14 +597,14 @@
 		};
 		7DACF06B11C1FA8F004A4EF8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/bash;
 			shellScript = "#!/bin/bash\n# (c) 2010 James Briant, binaryfinery.com\n\n\nif [[ $TARGET_BUILD_DIR == *Release-iphoneos* ]]\nthen\n\necho \"Rebuilding library as proper multiarch file\"\n\n\nmv $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv6/libThree20.a $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv6/libThree20.temp.a\nlipo -extract armv6 $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv6/libThree20.temp.a -o $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv6/libThree20.a\nmv $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv7/libThree20.a $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv7/libThree20.temp.a\nlipo -extract armv7 $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv7/libThree20.temp.a -o $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv7/libThree20.a\n\nlibtool -static $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv6/libThree20.a $TEMP_FILES_DIR/Objects-$BUILD_VARIANTS/armv7/libThree20.a -o $BUILT_PRODUCTS_DIR/libThree20.a\nelse\necho \"Skipping arm multi-architecture rebuild\"\nfi";
 		};
@@ -717,7 +717,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -732,7 +731,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				PREBINDING = NO;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 			};
 			name = Internal;
@@ -766,7 +764,6 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				PREBINDING = NO;
 			};
 			name = Debug;
 		};
@@ -777,11 +774,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				OTHER_LDFLAGS = (
-					"-v",
-					"$(OBJC_LIBRARY)",
-				);
-				PREBINDING = NO;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -797,7 +789,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -814,7 +805,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
