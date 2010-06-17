@@ -1,6 +1,13 @@
 Three20
 =======
 
+**IMPORTANT**
+
+**The official three20 page now says to add all the Three20XXX projects to your XCode project. If you do this, you WILL get build errors at link time**
+
+Specifically you will get duplicate symbols in three20.a and three20ui.a etc. I am looking to see if there is a build fix for this, but why waste time adding 5 projects that are already included by the master project?
+
+
 Three20 is a collection of iPhone UI classes, like a photo viewer, and general
 utilities, like an HTTP disk cache.  Three20 is derived from the
 [Facebook iPhone app][], which is one of the most downloaded iPhone apps ever.
