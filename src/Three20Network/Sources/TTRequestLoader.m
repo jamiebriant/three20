@@ -88,10 +88,12 @@ static const NSInteger kLoadMaxRetries = 2;
   TTNetworkRequestStarted();
 
   TTURLRequest* request = _requests.count == 1 ? [_requests objectAtIndex:0] : nil;
-  // JAB:
-  NSURLRequest* URLRequest = [request createNSURLRequest];
-  // ORIGINAL: NSURLRequest* URLRequest = [_queue createNSURLRequest:request URL:URL];
-
+  
+#ifdef BINARYFINERY_COOKIE_HACK
+	NSURLRequest* URLRequest = [request createNSURLRequest];
+#else
+	NSURLRequest* URLRequest = [_queue createNSURLRequest:request URL:URL];
+#endif
   _connection = [[NSURLConnection alloc] initWithRequest:URLRequest delegate:self];
 }
 
