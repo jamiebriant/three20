@@ -686,6 +686,7 @@
 		6EE7364C11849B3D00A35176 /* UnitTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = UnitTests.xcconfig; path = Configurations/UnitTests.xcconfig; sourceTree = "<group>"; };
 		6EE7366611849C5800A35176 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6EE7389D1184ADB400A35176 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
+		7DE4820111D586A900509C99 /* MessageController.xcclassmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcclassmodel; path = MessageController.xcclassmodel; sourceTree = "<group>"; };
 		BEF31F3A0F352DF5000DE5D2 /* libThree20UI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libThree20UI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9E6C6210B6A8F800DE563C /* UnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -854,6 +855,7 @@
 				6E6456151184D4DA00F08CB1 /* TTMessageController.m */,
 				6E6454DB1184D4C500F08CB1 /* TTMessageControllerDelegate.h */,
 				6E6457A61184D82F00F08CB1 /* Message Field */,
+				7DE4820111D586A900509C99 /* MessageController.xcclassmodel */,
 			);
 			name = "Message Controller";
 			sourceTree = "<group>";
