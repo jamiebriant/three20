@@ -54,6 +54,7 @@ static const CGFloat kUITextViewVerticalPadding = 6;
 @synthesize autoresizesToText = _autoresizesToText;
 @synthesize showsExtraLine    = _showsExtraLine;
 @synthesize delegate          = _delegate;
+@synthesize forceTextView	  = _forceTextView;
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -183,15 +184,17 @@ static const CGFloat kUITextViewVerticalPadding = 6;
   CGFloat newHeight = [self heightThatFits:&_overflowed numberOfLines:&numberOfLines];
   CGFloat diff = newHeight - oldHeight;
 
-  if (numberOfLines > 1 && !_textField.hidden) {
+  // JAB: _forceTextView does what you think it does.	
+  if ((_forceTextView || numberOfLines > 1) && !_textField.hidden) {
     [self createTextView];
     _textField.hidden = YES;
     _textView.hidden = NO;
     _textView.text = _textField.text;
     _internal.ignoreBeginAndEnd = YES;
-    [_textView becomeFirstResponder];
+	if (_textField.isFirstResponder )
+		[_textView becomeFirstResponder];
     [self performSelector:@selector(stopIgnoringBeginAndEnd) withObject:nil afterDelay:0];
-  } else if (numberOfLines == 1 && _textField.hidden) {
+  } else if (!_forceTextView && numberOfLines == 1 && _textField.hidden) {
     _textField.hidden = NO;
     _textView.hidden = YES;
     _textField.text = _textView.text;
@@ -203,7 +206,7 @@ static const CGFloat kUITextViewVerticalPadding = 6;
   _textView.overflowed = _overflowed;
   _textView.scrollEnabled = _overflowed;
 
-  if (oldHeight && diff) {
+  if (/* JAB oldHeight && */ diff) { // JAB: Need to be able to recalculate height on demand, not just the first time.
     if ([_delegate respondsToSelector:@selector(textEditor:shouldResizeBy:)]) {
       if (![_delegate textEditor:self shouldResizeBy:diff]) {
         return;
@@ -450,8 +453,8 @@ static const CGFloat kUITextViewVerticalPadding = 6;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)scrollContainerToCursor:(UIScrollView*)scrollView {
-  if (_textView.hasText) {
-    if (scrollView.contentSize.height > scrollView.height) {
+  if (YES || _textView.hasText) { // JAB: ALWAYS - do this even if there isnt any text.
+     if (scrollView.contentSize.height > scrollView.height) {
       NSRange range = _textView.selectedRange;
       if (range.location == _textView.text.length) {
         [scrollView scrollRectToVisible:CGRectMake(0,scrollView.contentSize.height-1,1,1)

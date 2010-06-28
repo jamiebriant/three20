@@ -195,6 +195,10 @@ static const CGFloat kCancelHighlightThreshold = 4;
   }
 }
 
+// JAB: purely for debugging
+- (void)scrollToRowAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UITableViewScrollPosition)scrollPosition animated:(BOOL)animated {
+	[super scrollToRowAtIndexPath:indexPath atScrollPosition:scrollPosition animated:animated];
+}
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (CAGradientLayer*)shadowAsInverse:(BOOL)inverse {

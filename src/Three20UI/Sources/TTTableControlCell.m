@@ -104,7 +104,7 @@ static const CGFloat kControlPadding = 8;
   }
 
   CGFloat height = view.height;
-  if (!height) {
+  if (YES || !height) { // JAB: Again, always calculate because it f****** changes.
     if ([view isKindOfClass:[UITextView class]]) {
       UITextView* textView = (UITextView*)view;
       CGFloat ttLineHeight = textView.font.ttLineHeight;
@@ -112,8 +112,9 @@ static const CGFloat kControlPadding = 8;
 
     } else if ([view isKindOfClass:[TTTextEditor class]]) {
       TTTextEditor* textEditor = (TTTextEditor*)view;
-      CGFloat ttLineHeight = textEditor.font.ttLineHeight;
-      height = ttLineHeight * kDefaultTextViewLines;
+//      CGFloat ttLineHeight = textEditor.font.ttLineHeight;
+//      height = ttLineHeight * kDefaultTextViewLines;
+        height = textEditor.frame.size.height + kTableCellSpacing;
 
     } else if ([view isKindOfClass:[UITextField class]]) {
       UITextField* textField = (UITextField*)view;
@@ -146,7 +147,6 @@ static const CGFloat kControlPadding = 8;
 
   if ([TTTableControlCell shouldSizeControlToFit:_control]) {
     _control.frame = CGRectInset(self.contentView.bounds, 2, kTableCellSpacing / 2);
-
   } else {
     CGFloat minX = kControlPadding;
     CGFloat contentWidth = self.contentView.width - kControlPadding;

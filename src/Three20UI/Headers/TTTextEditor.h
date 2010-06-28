@@ -21,6 +21,7 @@
 @class TTTextView;
 @class TTTextEditorInternal;
 
+
 @interface TTTextEditor : TTView <UITextInputTraits> {
   TTTextEditorInternal* _internal;
   UITextField*          _textField;
@@ -33,6 +34,7 @@
   BOOL _overflowed;
   BOOL _autoresizesToText;
   BOOL _showsExtraLine;
+  BOOL _forceTextView; // JAB Yes, this is an awful hack.
 
   id<TTTextEditorDelegate> _delegate;
 }
@@ -48,6 +50,7 @@
 @property (nonatomic, readonly) BOOL editing;
 @property (nonatomic)           BOOL autoresizesToText;
 @property (nonatomic)           BOOL showsExtraLine;
+@property (nonatomic)			BOOL forceTextView; // JAB
 
 @property (nonatomic, assign) id<TTTextEditorDelegate> delegate;
 

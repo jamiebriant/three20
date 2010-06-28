@@ -208,7 +208,7 @@
   if ([_delegate respondsToSelector:@selector(textEditorDidChange:)]) {
     [_delegate textEditorDidChange:_textEditor];
   }
-  return YES;
+  return NO; // JAB: Should never go to next.
 }
 
 
