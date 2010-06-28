@@ -27,7 +27,7 @@
 
 @synthesize autoresizesToText = _autoresizesToText;
 @synthesize overflowed        = _overflowed;
-
+@synthesize preventResign     = _preventResign;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)setContentOffset:(CGPoint)offset animated:(BOOL)animated {
@@ -49,5 +49,8 @@
   }
 }
 
+-(BOOL)canResignFirstResponder {
+    return !_preventResign;
+}
 
 @end

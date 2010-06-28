@@ -139,7 +139,7 @@ static const CGFloat kUITextViewVerticalPadding = 6;
   if (!text.length) {
     text = @"M";
   }
-
+ 
   CGSize textSize = [text sizeWithFont:self.font
                           constrainedToSize:CGSizeMake(maxWidth, CGFLOAT_MAX)
                           lineBreakMode:UILineBreakModeWordWrap];
@@ -208,7 +208,9 @@ static const CGFloat kUITextViewVerticalPadding = 6;
 
   if (/* JAB oldHeight && */ diff) { // JAB: Need to be able to recalculate height on demand, not just the first time.
     if ([_delegate respondsToSelector:@selector(textEditor:shouldResizeBy:)]) {
+        _textView.preventResign = YES;
       if (![_delegate textEditor:self shouldResizeBy:diff]) {
+          _textView.preventResign = NO;
         return;
       }
     }

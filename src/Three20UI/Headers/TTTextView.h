@@ -20,9 +20,11 @@
 @interface TTTextView : UITextView {
   BOOL _autoresizesToText;
   BOOL _overflowed;
+  BOOL _preventResign;
 }
 
 @property (nonatomic) BOOL autoresizesToText;
 @property (nonatomic) BOOL overflowed;
+@property (nonatomic) BOOL preventResign;
 
 @end
