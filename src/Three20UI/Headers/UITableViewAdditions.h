@@ -40,8 +40,6 @@
 
 - (void)scrollToLastRow:(BOOL)animated;
 
-- (void)scrollFirstResponderIntoView;
-
 - (void)touchRowAtIndexPath:(NSIndexPath*)indexPath animated:(BOOL)animated;
 
 @end

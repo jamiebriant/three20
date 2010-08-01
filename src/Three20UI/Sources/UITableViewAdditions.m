@@ -100,19 +100,6 @@
 }
 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)scrollFirstResponderIntoView {
-  UIView* responder = [self.window findFirstResponder];
-  UITableViewCell* cell = (UITableViewCell*)[responder ancestorOrSelfWithClass:[UITableViewCell class]];
-  if (cell) {
-    NSIndexPath* indexPath = [self indexPathForCell:cell];
-    if (indexPath) {
-      [self scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle
-            animated:YES];
-    }
-  }
-}
-
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)touchRowAtIndexPath:(NSIndexPath*)indexPath animated:(BOOL)animated {
