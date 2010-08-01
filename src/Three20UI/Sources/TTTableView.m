@@ -158,11 +158,11 @@ static const CGFloat kCancelHighlightThreshold = 4;
   // when the table view itself is resized.  There are times when I scroll to a point and then
   // disable scrolling, and I don't want the table view scrolling somewhere else just because
   // it was resized.
-  if (self.scrollEnabled) {
-    if (!(_contentOrigin && self.contentOffset.y == _contentOrigin && point.y == 0)) {
+  //if (self.scrollEnabled) {
+  //  if (!(_contentOrigin && self.contentOffset.y == _contentOrigin && point.y == 0)) {
       [super setContentOffset:point];
-    }
-  }
+  //  }
+  //}
 }
 
 
@@ -198,6 +198,17 @@ static const CGFloat kCancelHighlightThreshold = 4;
 // JAB: purely for debugging
 - (void)scrollToRowAtIndexPath:(NSIndexPath *)indexPath atScrollPosition:(UITableViewScrollPosition)scrollPosition animated:(BOOL)animated {
 	[super scrollToRowAtIndexPath:indexPath atScrollPosition:scrollPosition animated:animated];
+}
+
+- (void)scrollRectToVisible:(CGRect)rect animated:(BOOL)animated {
+
+  if (self.scrollEnabled)
+    [super scrollRectToVisible:rect animated:animated];
+}
+
+- (void)setContentOffset:(CGPoint)contentOffset animated:(BOOL)animated {
+  //if (self.scrollEnabled)
+    [super setContentOffset:contentOffset animated:animated];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
