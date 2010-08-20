@@ -3,6 +3,9 @@ Three20
 
 **IMPORTANT**
 
+** This is a customized version of three20. It is no longer just a branch of three20 with iOS 4 stuff - its now probably BinaryFinery specific. You are welcome to use it as per its license agreement,
+but it is unlikely that it will work as you expect. **
+
 **The official three20 page now says to add all the Three20XXX projects to your XCode project. If you do this, you WILL get build errors at link time**
 
 Specifically you will get duplicate symbols in three20.a and three20ui.a etc. I am looking to see if there is a build fix for this, but why waste time adding 5 projects that are already included by the master project?
