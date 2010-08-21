@@ -5,7 +5,7 @@ SWAPS="Three20Core Three20Network Three20UICommon Three20Style Three20UINavigato
 # I really dont know perl that well so please make this faster - Jamie
 
 for swap in $SWAPS; do
-	find Six40/Classes/* -exec perl -p -i -e "s/$swap\//Six40\//g;" {} \;
+	find * -exec perl -p -i -e "s/$swap\//Six40\//g;" {} \;
 done
 
-find Six40/Classes/* -exec perl -p -i -e "s/Six40\/private/Six40/g;" {} \;
+find * -exec perl -p -i -e "s/Six40\/private/Six40/g;" {} \;
