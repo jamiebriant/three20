@@ -14,36 +14,36 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableViewController.h"
+#import "Six40/TTTableViewController.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTActivityLabel.h"
-#import "Three20UI/TTErrorView.h"
-#import "Three20UI/TTListDataSource.h"
-#import "Three20UI/TTTableView.h"
-#import "Three20UI/TTTableViewDelegate.h"
-#import "Three20UI/TTTableViewVarHeightDelegate.h"
-#import "Three20UI/UIViewAdditions.h"
-#import "Three20UI/UITableViewAdditions.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTActivityLabel.h"
+#import "Six40/TTErrorView.h"
+#import "Six40/TTListDataSource.h"
+#import "Six40/TTTableView.h"
+#import "Six40/TTTableViewDelegate.h"
+#import "Six40/TTTableViewVarHeightDelegate.h"
+#import "Six40/UIViewAdditions.h"
+#import "Six40/UITableViewAdditions.h"
 
 // UINavigator
-#import "Three20UINavigator/TTURLObject.h"
+#import "Six40/TTURLObject.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/TTGlobalUICommon.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCoreLocale.h"
-#import "Three20Core/TTGlobalCoreRects.h"
-#import "Three20Core/TTDebug.h"
-#import "Three20Core/TTDebugFlags.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCoreLocale.h"
+#import "Six40/TTGlobalCoreRects.h"
+#import "Six40/TTDebug.h"
+#import "Six40/TTDebugFlags.h"
 
 static const CGFloat kBannerViewHeight = 22;
 

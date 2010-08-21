@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20Core/TTGlobalCoreLocale.h"
+#import "Six40/TTGlobalCoreLocale.h"
 
 // Core
-#import "Three20Core/TTDebug.h"
+#import "Six40/TTDebug.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

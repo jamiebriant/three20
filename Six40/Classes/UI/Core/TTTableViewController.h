@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTModelViewController.h"
+#import "Six40/TTModelViewController.h"
 
 @protocol TTTableViewDataSource;
 @class TTActivityLabel;

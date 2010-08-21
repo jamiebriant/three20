@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-#import "Three20Network/TTURLCache.h"
+#import "Six40/TTURLCache.h"
 
 // Network
-#import "Three20Network/TTGlobalNetwork.h"
+#import "Six40/TTGlobalNetwork.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCorePaths.h"
-#import "Three20Core/TTDebug.h"
-#import "Three20Core/TTDebugFlags.h"
-#import "Three20Core/NSStringAdditions.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCorePaths.h"
+#import "Six40/TTDebug.h"
+#import "Six40/TTDebugFlags.h"
+#import "Six40/NSStringAdditions.h"
 
 static const  CGFloat   kLargeImageSize = 600 * 400;
 

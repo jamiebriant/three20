@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "Three20UICommon/Three20UICommon.h"
+#import "Six40/Three20UICommon.h"
 
 // Additions
-#import "Three20UICommon/UIViewControllerAdditions.h"
-#import "Three20UICommon/UIWindowAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
+#import "Six40/UIWindowAdditions.h"

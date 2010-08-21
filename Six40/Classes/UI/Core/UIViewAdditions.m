@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/UIViewAdditions.h"
 
 // UINavigator
-#import "Three20UINavigator/TTGlobalNavigatorMetrics.h"
+#import "Six40/TTGlobalNavigatorMetrics.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 
 // Remove GSEvent and UITouchAdditions from Release builds
@@ -554,6 +554,6 @@
 @end
 
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG( UIViewAdditions )
 

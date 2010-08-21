@@ -14,46 +14,46 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableViewDataSource.h"
+#import "Six40/TTTableViewDataSource.h"
 
 // UI
-#import "Three20UI/TTTextEditor.h"
+#import "Six40/TTTextEditor.h"
 
 // - Table Items
-#import "Three20UI/TTTableItem.h"
-#import "Three20UI/TTTableMoreButton.h"
-#import "Three20UI/TTTableSubtextItem.h"
-#import "Three20UI/TTTableRightCaptionItem.h"
-#import "Three20UI/TTTableCaptionItem.h"
-#import "Three20UI/TTTableSubtitleItem.h"
-#import "Three20UI/TTTableMessageItem.h"
-#import "Three20UI/TTTableImageItem.h"
-#import "Three20UI/TTTableStyledTextItem.h"
-#import "Three20UI/TTTableTextItem.h"
-#import "Three20UI/TTTableActivityItem.h"
-#import "Three20UI/TTTableControlItem.h"
+#import "Six40/TTTableItem.h"
+#import "Six40/TTTableMoreButton.h"
+#import "Six40/TTTableSubtextItem.h"
+#import "Six40/TTTableRightCaptionItem.h"
+#import "Six40/TTTableCaptionItem.h"
+#import "Six40/TTTableSubtitleItem.h"
+#import "Six40/TTTableMessageItem.h"
+#import "Six40/TTTableImageItem.h"
+#import "Six40/TTTableStyledTextItem.h"
+#import "Six40/TTTableTextItem.h"
+#import "Six40/TTTableActivityItem.h"
+#import "Six40/TTTableControlItem.h"
 
 // - Table Cells
-#import "Three20UI/TTTableMoreButtonCell.h"
-#import "Three20UI/TTTableSubtextItemCell.h"
-#import "Three20UI/TTTableRightCaptionItemCell.h"
-#import "Three20UI/TTTableCaptionItemCell.h"
-#import "Three20UI/TTTableSubtitleItemCell.h"
-#import "Three20UI/TTTableMessageItemCell.h"
-#import "Three20UI/TTTableImageItemCell.h"
-#import "Three20UI/TTStyledTextTableItemCell.h"
-#import "Three20UI/TTTableActivityItemCell.h"
-#import "Three20UI/TTTableControlCell.h"
-#import "Three20UI/TTTableTextItemCell.h"
-#import "Three20UI/TTStyledTextTableCell.h"
-#import "Three20UI/TTTableFlushViewCell.h"
+#import "Six40/TTTableMoreButtonCell.h"
+#import "Six40/TTTableSubtextItemCell.h"
+#import "Six40/TTTableRightCaptionItemCell.h"
+#import "Six40/TTTableCaptionItemCell.h"
+#import "Six40/TTTableSubtitleItemCell.h"
+#import "Six40/TTTableMessageItemCell.h"
+#import "Six40/TTTableImageItemCell.h"
+#import "Six40/TTStyledTextTableItemCell.h"
+#import "Six40/TTTableActivityItemCell.h"
+#import "Six40/TTTableControlCell.h"
+#import "Six40/TTTableTextItemCell.h"
+#import "Six40/TTStyledTextTableCell.h"
+#import "Six40/TTTableFlushViewCell.h"
 
 // Style
-#import "Three20Style/TTStyledText.h"
+#import "Six40/TTStyledText.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCoreLocale.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCoreLocale.h"
 
 #import <objc/runtime.h>
 

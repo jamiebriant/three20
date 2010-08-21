@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTTableViewCell.h"
+#import "Six40/TTTableViewCell.h"
 
 @class TTStyledTextLabel;
 

@@ -15,7 +15,7 @@
 //
 
 // Style
-#import "Three20Style/TTStyledNode.h"
+#import "Six40/TTStyledNode.h"
 
 @interface TTStyledTextNode : TTStyledNode {
   NSString* _text;

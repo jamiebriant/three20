@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator/TTBaseNavigationController.h"
+#import "Six40/TTBaseNavigationController.h"
 
 // UINavigator
-#import "Three20UINavigator/TTBaseNavigator.h"
-#import "Three20UINavigator/TTURLMap.h"
+#import "Six40/TTBaseNavigator.h"
+#import "Six40/TTURLMap.h"
 
 // UINavigator (Additions)
-#import "Three20UINavigator/UIViewController+TTNavigator.h"
+#import "Six40/UIViewController+TTNavigator.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

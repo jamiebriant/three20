@@ -15,7 +15,7 @@
 //
 
 // UI (private)
-#import "Three20UINavigator/private/TTURLPatternText.h"
+#import "Six40/TTURLPatternText.h"
 
 @interface TTURLLiteral : NSObject <TTURLPatternText> {
   NSString* _name;

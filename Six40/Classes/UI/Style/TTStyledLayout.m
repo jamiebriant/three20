@@ -14,32 +14,32 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTStyledLayout.h"
+#import "Six40/TTStyledLayout.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTStyledFrame.h"
-#import "Three20Style/TTStyleSheet.h"
-#import "Three20Style/TTBoxStyle.h"
-#import "Three20Style/TTTextStyle.h"
-#import "Three20Style/TTStyledElement.h"
-#import "Three20Style/TTStyledInlineFrame.h"
-#import "Three20Style/TTStyledTextFrame.h"
-#import "Three20Style/TTStyledImageFrame.h"
-#import "Three20Style/UIFontAdditions.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTStyledFrame.h"
+#import "Six40/TTStyleSheet.h"
+#import "Six40/TTBoxStyle.h"
+#import "Six40/TTTextStyle.h"
+#import "Six40/TTStyledElement.h"
+#import "Six40/TTStyledInlineFrame.h"
+#import "Six40/TTStyledTextFrame.h"
+#import "Six40/TTStyledImageFrame.h"
+#import "Six40/UIFontAdditions.h"
 
 // Styled nodes
-#import "Three20Style/TTStyledImageNode.h"
-#import "Three20Style/TTStyledBoldNode.h"
-#import "Three20Style/TTStyledItalicNode.h"
-#import "Three20Style/TTStyledLinkNode.h"
-#import "Three20Style/TTStyledBlock.h"
-#import "Three20Style/TTStyledLineBreakNode.h"
-#import "Three20Style/TTStyledTextNode.h"
+#import "Six40/TTStyledImageNode.h"
+#import "Six40/TTStyledBoldNode.h"
+#import "Six40/TTStyledItalicNode.h"
+#import "Six40/TTStyledLinkNode.h"
+#import "Six40/TTStyledBlock.h"
+#import "Six40/TTStyledLineBreakNode.h"
+#import "Six40/TTStyledTextNode.h"
 
 // Core
-#import "Three20Core/TTGlobalCore.h"
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCore.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

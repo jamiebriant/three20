@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UIToolbarAdditions.h"
+#import "Six40/UIToolbarAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -54,6 +54,6 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG( UIToolbarAdditions )
 

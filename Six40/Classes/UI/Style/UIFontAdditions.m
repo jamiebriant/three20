@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20Style/UIFontAdditions.h"
+#import "Six40/UIFontAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -32,5 +32,5 @@
 }
 
 @end
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(UIFontAdditions)

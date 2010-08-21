@@ -14,29 +14,29 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator/TTBaseNavigator.h"
+#import "Six40/TTBaseNavigator.h"
 
 // UINavigator
-#import "Three20UINavigator/TTGlobalNavigatorMetrics.h"
-#import "Three20UINavigator/TTNavigatorDelegate.h"
-#import "Three20UINavigator/TTBaseNavigationController.h"
-#import "Three20UINavigator/TTURLAction.h"
-#import "Three20UINavigator/TTURLMap.h"
-#import "Three20UINavigator/TTURLNavigatorPattern.h"
-#import "Three20UINavigator/UIViewController+TTNavigator.h"
+#import "Six40/TTGlobalNavigatorMetrics.h"
+#import "Six40/TTNavigatorDelegate.h"
+#import "Six40/TTBaseNavigationController.h"
+#import "Six40/TTURLAction.h"
+#import "Six40/TTURLMap.h"
+#import "Six40/TTURLNavigatorPattern.h"
+#import "Six40/UIViewController+TTNavigator.h"
 
 // UINavigator (private)
-#import "Three20UINavigator/private/TTBaseNavigatorInternal.h"
+#import "Six40/TTBaseNavigatorInternal.h"
 
 // UICommon
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // Core
-#import "Three20Core/TTGlobalCore.h"
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTDebug.h"
-#import "Three20Core/TTDebugFlags.h"
-#import "Three20Core/NSDateAdditions.h"
+#import "Six40/TTGlobalCore.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTDebug.h"
+#import "Six40/TTDebugFlags.h"
+#import "Six40/NSDateAdditions.h"
 
 static TTBaseNavigator* gNavigator = nil;
 

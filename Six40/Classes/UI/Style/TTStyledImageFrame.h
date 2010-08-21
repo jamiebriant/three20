@@ -15,8 +15,8 @@
 //
 
 // Style
-#import "Three20Style/TTStyledFrame.h"
-#import "Three20Style/TTStyleDelegate.h"
+#import "Six40/TTStyledFrame.h"
+#import "Six40/TTStyleDelegate.h"
 
 @class TTStyledImageNode;
 

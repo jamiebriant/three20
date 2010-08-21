@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTStyledFrame.h"
+#import "Six40/TTStyledFrame.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

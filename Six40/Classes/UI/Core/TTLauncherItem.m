@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTLauncherItem.h"
+#import "Six40/TTLauncherItem.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

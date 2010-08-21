@@ -14,23 +14,23 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator/UIViewController+TTNavigator.h"
+#import "Six40/UIViewController+TTNavigator.h"
 
 // UINavigator
-#import "Three20UINavigator/TTBaseNavigator.h"
-#import "Three20UINavigator/TTURLMap.h"
-#import "Three20UINavigator/TTNavigatorViewController.h"
+#import "Six40/TTBaseNavigator.h"
+#import "Six40/TTURLMap.h"
+#import "Six40/TTNavigatorViewController.h"
 
 // UICommon
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // UICommon (private)
-#import "Three20UICommon/private/UIViewControllerGarbageCollection.h"
+#import "Six40/UIViewControllerGarbageCollection.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTDebug.h"
-#import "Three20Core/TTDebugFlags.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTDebug.h"
+#import "Six40/TTDebugFlags.h"
 
 static NSMutableDictionary* gNavigatorURLs          = nil;
 
@@ -190,6 +190,6 @@ static const NSTimeInterval kGarbageCollectionInterval = 20;
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(UIViewControllerTTNavigator)
 

@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTView.h"
+#import "Six40/TTView.h"
 
 // Style
-#import "Three20Style/TTStyleContext.h"
-#import "Three20Style/TTStyle.h"
-#import "Three20Style/TTLayout.h"
+#import "Six40/TTStyleContext.h"
+#import "Six40/TTStyle.h"
+#import "Six40/TTLayout.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

@@ -14,23 +14,23 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTButton.h"
+#import "Six40/TTButton.h"
 
 // UI (private)
-#import "Three20UI/TTButtonContent.h"
+#import "Six40/TTButtonContent.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
-#import "Three20Style/TTStyleContext.h"
-#import "Three20Style/TTTextStyle.h"
-#import "Three20Style/TTPartStyle.h"
-#import "Three20Style/TTBoxStyle.h"
-#import "Three20Style/TTImageStyle.h"
-#import "Three20Style/UIImageAdditions.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
+#import "Six40/TTStyleContext.h"
+#import "Six40/TTTextStyle.h"
+#import "Six40/TTPartStyle.h"
+#import "Six40/TTBoxStyle.h"
+#import "Six40/TTImageStyle.h"
+#import "Six40/UIImageAdditions.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 static const CGFloat kHPadding = 8;
 static const CGFloat kVPadding = 7;

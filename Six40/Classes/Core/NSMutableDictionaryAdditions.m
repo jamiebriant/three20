@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20Core/NSMutableDictionaryAdditions.h"
+#import "Six40/NSMutableDictionaryAdditions.h"
 
 // Core
-#import "Three20Core/TTGlobalCore.h"
+#import "Six40/TTGlobalCore.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -38,5 +38,5 @@
 
 
 @end
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(NSMutableDictionaryAdditions)

@@ -14,16 +14,16 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator/TTGlobalNavigatorMetrics.h"
+#import "Six40/TTGlobalNavigatorMetrics.h"
 
 // UINavigator
-#import "Three20UINavigator/TTBaseNavigator.h"
+#import "Six40/TTBaseNavigator.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 // Core
-#import "Three20Core/TTGlobalCoreRects.h"
+#import "Six40/TTGlobalCoreRects.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

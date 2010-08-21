@@ -14,27 +14,27 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTStyledText.h"
+#import "Six40/TTStyledText.h"
 
 // Style
-#import "Three20Style/TTStyledTextDelegate.h"
-#import "Three20Style/TTStyledNode.h"
-#import "Three20Style/TTStyledFrame.h"
-#import "Three20Style/TTStyledLayout.h"
-#import "Three20Style/TTStyledTextParser.h"
-#import "Three20Style/TTStyledImageNode.h"
-#import "Three20Style/TTStyledTextNode.h"
-#import "Three20Style/TTStyledBoxFrame.h"
-#import "Three20Style/TTStyledTextFrame.h"
-#import "Three20Style/TTStyledImageFrame.h"
+#import "Six40/TTStyledTextDelegate.h"
+#import "Six40/TTStyledNode.h"
+#import "Six40/TTStyledFrame.h"
+#import "Six40/TTStyledLayout.h"
+#import "Six40/TTStyledTextParser.h"
+#import "Six40/TTStyledImageNode.h"
+#import "Six40/TTStyledTextNode.h"
+#import "Six40/TTStyledBoxFrame.h"
+#import "Six40/TTStyledTextFrame.h"
+#import "Six40/TTStyledImageFrame.h"
 
 // Network
-#import "Three20Network/TTURLImageResponse.h"
-#import "Three20Network/TTURLCache.h"
-#import "Three20Network/TTURLRequest.h"
+#import "Six40/TTURLImageResponse.h"
+#import "Six40/TTURLCache.h"
+#import "Six40/TTURLRequest.h"
 
 // Core
-#import "Three20Core/TTGlobalCore.h"
+#import "Six40/TTGlobalCore.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

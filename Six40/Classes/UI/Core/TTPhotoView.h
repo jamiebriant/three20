@@ -15,9 +15,9 @@
 //
 
 // UI
-#import "Three20UI/TTImageView.h"
-#import "Three20UI/TTPhotoVersion.h"
-#import "Three20UI/TTImageViewDelegate.h"
+#import "Six40/TTImageView.h"
+#import "Six40/TTPhotoVersion.h"
+#import "Six40/TTImageViewDelegate.h"
 
 @protocol TTPhoto;
 @class TTLabel;

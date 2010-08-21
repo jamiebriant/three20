@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTRectangleShape.h"
+#import "Six40/TTRectangleShape.h"
 
 static TTRectangleShape* sharedRectangleShape = nil;
 

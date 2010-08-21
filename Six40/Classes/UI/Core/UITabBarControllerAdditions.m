@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UITabBarControllerAdditions.h"
+#import "Six40/UITabBarControllerAdditions.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTNavigationController.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTNavigationController.h"
 
 // UICommon
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -123,5 +123,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG( UITabBarControllerAdditions )

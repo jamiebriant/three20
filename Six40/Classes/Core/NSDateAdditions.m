@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Three20Core/NSDateAdditions.h"
+#import "Six40/NSDateAdditions.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCoreLocale.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCoreLocale.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -253,5 +253,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(NSDateAdditions)

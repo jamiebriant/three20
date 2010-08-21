@@ -14,22 +14,22 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTab.h"
+#import "Six40/TTTab.h"
 
 // UI
-#import "Three20UI/TTTabItem.h"
-#import "Three20UI/TTLabel.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTTabItem.h"
+#import "Six40/TTLabel.h"
+#import "Six40/UIViewAdditions.h"
 
 // UI (private)
-#import "Three20UI/TTTabBarInternal.h"
+#import "Six40/TTTabBarInternal.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTStyleSheet.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

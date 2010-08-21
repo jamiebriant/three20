@@ -15,9 +15,9 @@
 //
 
 // Style
-#import "Three20Style/Three20Style.h"
+#import "Six40/Three20Style.h"
 
 // Additions
-#import "Three20Style/UIColorAdditions.h"
-#import "Three20Style/UIFontAdditions.h"
-#import "Three20Style/UIImageAdditions.h"
+#import "Six40/UIColorAdditions.h"
+#import "Six40/UIFontAdditions.h"
+#import "Six40/UIImageAdditions.h"

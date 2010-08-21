@@ -14,21 +14,21 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableMoreButtonCell.h"
+#import "Six40/TTTableMoreButtonCell.h"
 
 // UI
-#import "Three20UI/TTTableMoreButton.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTTableMoreButton.h"
+#import "Six40/UIViewAdditions.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 static const CGFloat kMoreButtonMargin = 40;
 

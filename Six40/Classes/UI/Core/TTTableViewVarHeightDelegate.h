@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTTableViewDelegate.h"
+#import "Six40/TTTableViewDelegate.h"
 
 /**
  * A table view delegate that queries the cell items for their height.

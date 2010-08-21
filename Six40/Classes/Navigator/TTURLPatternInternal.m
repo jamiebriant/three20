@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator/TTURLPatternInternal.h"
+#import "Six40/TTURLPatternInternal.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -33,6 +33,6 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(TTURLPatternInternal)
 

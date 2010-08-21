@@ -14,25 +14,25 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTSearchBar.h"
+#import "Six40/TTSearchBar.h"
 
 // UI
-#import "Three20UI/TTSearchTextField.h"
-#import "Three20UI/TTButton.h"
-#import "Three20UI/UIViewAdditions.h"
-#import "Three20UI/UITableViewAdditions.h"
-#import "Three20Style/UIFontAdditions.h"
+#import "Six40/TTSearchTextField.h"
+#import "Six40/TTButton.h"
+#import "Six40/UIViewAdditions.h"
+#import "Six40/UITableViewAdditions.h"
+#import "Six40/UIFontAdditions.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCoreLocale.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCoreLocale.h"
 
 static const CGFloat kMarginX   = 5;
 static const CGFloat kMarginY   = 7;

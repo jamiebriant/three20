@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Three20Core/Three20Core.h"
+#import "Six40/Three20Core.h"
 
 // Additions
-#import "Three20Core/NSArrayAdditions.h"
-#import "Three20Core/NSDataAdditions.h"
-#import "Three20Core/NSDateAdditions.h"
-#import "Three20Core/NSMutableArrayAdditions.h"
-#import "Three20Core/NSMutableDictionaryAdditions.h"
-#import "Three20Core/NSObjectAdditions.h"
-#import "Three20Core/NSStringAdditions.h"
+#import "Six40/NSArrayAdditions.h"
+#import "Six40/NSDataAdditions.h"
+#import "Six40/NSDateAdditions.h"
+#import "Six40/NSMutableArrayAdditions.h"
+#import "Six40/NSMutableDictionaryAdditions.h"
+#import "Six40/NSObjectAdditions.h"
+#import "Six40/NSStringAdditions.h"

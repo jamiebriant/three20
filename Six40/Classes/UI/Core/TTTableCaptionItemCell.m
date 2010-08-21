@@ -14,17 +14,17 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableCaptionItemCell.h"
+#import "Six40/TTTableCaptionItemCell.h"
 
 // UI
-#import "Three20UI/TTTableCaptionItem.h"
-#import "Three20UI/UIViewAdditions.h"
-#import "Three20Style/UIFontAdditions.h"
-#import "Three20UI/UITableViewAdditions.h"
+#import "Six40/TTTableCaptionItem.h"
+#import "Six40/UIViewAdditions.h"
+#import "Six40/UIFontAdditions.h"
+#import "Six40/UITableViewAdditions.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 static const CGFloat kKeySpacing = 12;
 static const CGFloat kKeyWidth = 75;

@@ -14,41 +14,41 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTPhotoViewController.h"
+#import "Six40/TTPhotoViewController.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTThumbsViewController.h"
-#import "Three20UI/TTNavigationController.h"
-#import "Three20UI/TTPhotoSource.h"
-#import "Three20UI/TTPhoto.h"
-#import "Three20UI/TTPhotoView.h"
-#import "Three20UI/TTActivityLabel.h"
-#import "Three20UI/TTScrollView.h"
-#import "Three20UI/UIViewAdditions.h"
-#import "Three20UI/UINavigationControllerAdditions.h"
-#import "Three20UI/UIToolbarAdditions.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTThumbsViewController.h"
+#import "Six40/TTNavigationController.h"
+#import "Six40/TTPhotoSource.h"
+#import "Six40/TTPhoto.h"
+#import "Six40/TTPhotoView.h"
+#import "Six40/TTActivityLabel.h"
+#import "Six40/TTScrollView.h"
+#import "Six40/UIViewAdditions.h"
+#import "Six40/UINavigationControllerAdditions.h"
+#import "Six40/UIToolbarAdditions.h"
 
 // UINavigator
-#import "Three20UINavigator/TTURLObject.h"
-#import "Three20UINavigator/TTURLMap.h"
-#import "Three20UINavigator/TTBaseNavigationController.h"
+#import "Six40/TTURLObject.h"
+#import "Six40/TTURLMap.h"
+#import "Six40/TTBaseNavigationController.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/TTGlobalUICommon.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 // Network
-#import "Three20Network/TTGlobalNetwork.h"
-#import "Three20Network/TTURLCache.h"
+#import "Six40/TTGlobalNetwork.h"
+#import "Six40/TTURLCache.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCoreLocale.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCoreLocale.h"
 
 static const NSTimeInterval kPhotoLoadLongDelay   = 0.5;
 static const NSTimeInterval kPhotoLoadShortDelay  = 0.25;

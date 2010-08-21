@@ -14,29 +14,29 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTNavigator.h"
+#import "Six40/TTNavigator.h"
 
 // UI
-#import "Three20UI/TTPopupViewController.h"
-#import "Three20UI/TTSearchDisplayController.h"
-#import "Three20UI/TTTableViewController.h"
-#import "Three20UI/TTNavigationController.h"
+#import "Six40/TTPopupViewController.h"
+#import "Six40/TTSearchDisplayController.h"
+#import "Six40/TTTableViewController.h"
+#import "Six40/TTNavigationController.h"
 
 // UI (private)
-#import "Three20UI/private/TTNavigatorWindow.h"
+#import "Six40/TTNavigatorWindow.h"
 
 // UINavigator
-#import "Three20UINavigator/TTURLMap.h"
-#import "Three20UINavigator/TTURLAction.h"
+#import "Six40/TTURLMap.h"
+#import "Six40/TTURLAction.h"
 
 // UINavigator (private)
-#import "Three20UINavigator/private/TTBaseNavigatorInternal.h"
+#import "Six40/TTBaseNavigatorInternal.h"
 
 // UICommon
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // Core
-#import "Three20Core/TTDebug.h"
+#import "Six40/TTDebug.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

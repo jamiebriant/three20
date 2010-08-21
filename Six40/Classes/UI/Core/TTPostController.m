@@ -14,30 +14,30 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTPostController.h"
+#import "Six40/TTPostController.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTPostControllerDelegate.h"
-#import "Three20UI/TTActivityLabel.h"
-#import "Three20UI/TTView.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTPostControllerDelegate.h"
+#import "Six40/TTActivityLabel.h"
+#import "Six40/TTView.h"
+#import "Six40/UIViewAdditions.h"
 
 // UINavigator
-#import "Three20UINavigator/TTGlobalNavigatorMetrics.h"
+#import "Six40/TTGlobalNavigatorMetrics.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/TTGlobalUICommon.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTStyleSheet.h"
 
 // Core
-#import "Three20Core/TTGlobalCoreLocale.h"
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/NSStringAdditions.h"
+#import "Six40/TTGlobalCoreLocale.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/NSStringAdditions.h"
 
 static const CGFloat kMarginX = 5;
 static const CGFloat kMarginY = 6;

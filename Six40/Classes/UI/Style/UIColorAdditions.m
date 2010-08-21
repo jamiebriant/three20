@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 
-#import "Three20Style/UIColorAdditions.h"
-#import "Three20Core/CategoryFix.h"
+#import "Six40/UIColorAdditions.h"
+#import "Six40/CategoryFix.h"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Color algorithms from http://www.cs.rit.edu/~ncs/color/t_convert.html
 

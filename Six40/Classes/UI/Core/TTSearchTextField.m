@@ -14,32 +14,32 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTSearchTextField.h"
+#import "Six40/TTSearchTextField.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTView.h"
-#import "Three20UI/TTSearchTextFieldDelegate.h"
-#import "Three20UI/TTTableView.h"
-#import "Three20UI/TTTableViewCell.h"
-#import "Three20UI/TTTableViewDataSource.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTView.h"
+#import "Six40/TTSearchTextFieldDelegate.h"
+#import "Six40/TTTableView.h"
+#import "Six40/TTTableViewCell.h"
+#import "Six40/TTTableViewDataSource.h"
+#import "Six40/UIViewAdditions.h"
 
 // UI (private)
-#import "Three20UI/TTSearchTextFieldInternal.h"
+#import "Six40/TTSearchTextFieldInternal.h"
 
 // UINavigator
-#import "Three20UINavigator/TTGlobalNavigatorMetrics.h"
+#import "Six40/TTGlobalNavigatorMetrics.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 static const CGFloat kShadowHeight = 24;
 static const CGFloat kDesiredTableHeight = 150;

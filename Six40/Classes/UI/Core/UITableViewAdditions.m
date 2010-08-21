@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UITableViewAdditions.h"
+#import "Six40/UITableViewAdditions.h"
 
 // UI
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/UIViewAdditions.h"
 
 // UICommon
-#import "Three20UICommon/UIWindowAdditions.h"
+#import "Six40/UIWindowAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -122,5 +122,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(UITableViewAdditions)

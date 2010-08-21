@@ -14,21 +14,21 @@
 // limitations under the License.
 //
 
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
-#import "Three20UICommon/TTBaseViewController.h"
+#import "Six40/TTGlobalUICommon.h"
+#import "Six40/TTBaseViewController.h"
 
 // UICommon (private)
-#import "Three20UICommon/private/UIViewControllerGarbageCollection.h"
+#import "Six40/UIViewControllerGarbageCollection.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTGlobalCore.h"
-#import "Three20Core/TTDebug.h"
-#import "Three20Core/TTDebugFlags.h"
-#import "Three20Core/CategoryFix.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCore.h"
+#import "Six40/TTDebug.h"
+#import "Six40/TTDebugFlags.h"
+#import "Six40/CategoryFix.h"
 static NSMutableDictionary* gSuperControllers = nil;
 static NSMutableDictionary* gPopupViewControllers = nil;
 

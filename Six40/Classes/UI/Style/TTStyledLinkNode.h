@@ -15,7 +15,7 @@
 //
 
 // Style
-#import "Three20Style/TTStyledInline.h"
+#import "Six40/TTStyledInline.h"
 
 @interface TTStyledLinkNode : TTStyledInline {
   NSString* _URL;

@@ -14,22 +14,22 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UINavigationControllerAdditions.h"
+#import "Six40/UINavigationControllerAdditions.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTNavigationController.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTNavigationController.h"
 
 // UINavigator
-#import "Three20UINavigator/TTURLMap.h"
-#import "Three20UINavigator/UIViewController+TTNavigator.h"
+#import "Six40/TTURLMap.h"
+#import "Six40/UIViewController+TTNavigator.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/TTGlobalUICommon.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 // Network
-#import "Three20Network/TTURLRequestQueue.h"
+#import "Six40/TTURLRequestQueue.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -133,5 +133,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(UINavigationControllerAdditions)

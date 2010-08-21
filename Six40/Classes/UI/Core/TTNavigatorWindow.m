@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTNavigatorWindow.h"
+#import "Six40/TTNavigatorWindow.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
+#import "Six40/TTNavigator.h"
 
 // Core
-#import "Three20Core/TTDebug.h"
+#import "Six40/TTDebug.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

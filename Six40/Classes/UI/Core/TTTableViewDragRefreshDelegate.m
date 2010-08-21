@@ -14,25 +14,25 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableViewDragRefreshDelegate.h"
+#import "Six40/TTTableViewDragRefreshDelegate.h"
 
 // UI
-#import "Three20UI/TTTableHeaderDragRefreshView.h"
-#import "Three20UI/TTTableViewController.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTTableHeaderDragRefreshView.h"
+#import "Six40/TTTableViewController.h"
+#import "Six40/UIViewAdditions.h"
 
 // UICommon
-#import "Three20UICommon/TTGlobalUICommon.h"
+#import "Six40/TTGlobalUICommon.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet+DragRefreshHeader.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet+DragRefreshHeader.h"
 
 // Network
-#import "Three20Network/TTModel.h"
+#import "Six40/TTModel.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 // The number of pixels the table needs to be pulled down by in order to initiate the refresh.
 static const CGFloat kRefreshDeltaY = -65.0f;

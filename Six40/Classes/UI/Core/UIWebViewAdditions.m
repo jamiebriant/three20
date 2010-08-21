@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UIWebViewAdditions.h"
+#import "Six40/UIWebViewAdditions.h"
 
 // UI
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/UIViewAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -68,6 +68,6 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(UIWebViewAdditions)
 

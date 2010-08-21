@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTImageViewInternal.h"
+#import "Six40/TTImageViewInternal.h"
 
 // UI
-#import "Three20UI/TTImageViewDelegate.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTImageViewDelegate.h"
+#import "Six40/UIViewAdditions.h"
 
 // UI (private)
-#import "Three20UI/TTImageLayer.h"
+#import "Six40/TTImageLayer.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -107,5 +107,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(TTImageViewTTInternalAdditions)

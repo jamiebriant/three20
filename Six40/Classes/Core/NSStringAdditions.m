@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Three20Core/NSStringAdditions.h"
+#import "Six40/NSStringAdditions.h"
 
 // Core
-#import "Three20Core/TTMarkupStripper.h"
-#import "Three20Core/NSDataAdditions.h"
+#import "Six40/TTMarkupStripper.h"
+#import "Six40/NSDataAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -140,6 +140,6 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(NSStringAdditions)
 

@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTTableCaptionItem.h"
+#import "Six40/TTTableCaptionItem.h"
 
 @interface TTTableRightCaptionItem : TTTableCaptionItem
 @end

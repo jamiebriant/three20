@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTTableItem.h"
+#import "Six40/TTTableItem.h"
 
 @interface TTTableLinkedItem : TTTableItem {
   NSString* _URL;

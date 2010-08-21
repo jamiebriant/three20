@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20Style/private/TTStyleInternal.h"
+#import "Six40/TTStyleInternal.h"
 
 const NSInteger kDefaultLightSource = 125;
 
@@ -63,5 +63,5 @@ const NSInteger kDefaultLightSource = 125;
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(TTStyle_TTInteralAdditions)

@@ -15,15 +15,15 @@
 //
 
 // UI
-#import "Three20UI/Three20UI.h"
+#import "Six40/Three20UI.h"
 
 // Additions
-#import "Three20UI/UIViewAdditions.h"
-#import "Three20UI/UINavigationControllerAdditions.h"
-#import "Three20UI/UINavigationControllerAdditions.h"
-#import "Three20UI/UITabBarControllerAdditions.h"
-#import "Three20UI/UITableViewAdditions.h"
-#import "Three20UI/UIWebViewAdditions.h"
-#import "Three20UI/UIToolbarAdditions.h"
-#import "Three20UI/UINSStringAdditions.h"
-#import "Three20UI/UINSObjectAdditions.h"
+#import "Six40/UIViewAdditions.h"
+#import "Six40/UINavigationControllerAdditions.h"
+#import "Six40/UINavigationControllerAdditions.h"
+#import "Six40/UITabBarControllerAdditions.h"
+#import "Six40/UITableViewAdditions.h"
+#import "Six40/UIWebViewAdditions.h"
+#import "Six40/UIToolbarAdditions.h"
+#import "Six40/UINSStringAdditions.h"
+#import "Six40/UINSObjectAdditions.h"

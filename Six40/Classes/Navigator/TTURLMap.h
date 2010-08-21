@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "Three20UINavigator/TTNavigationMode.h"
+#import "Six40/TTNavigationMode.h"
 
 @class TTURLNavigatorPattern;
 @class TTURLGeneratorPattern;

@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Three20UI/UINSObjectAdditions.h"
+#import "Six40/UINSObjectAdditions.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
+#import "Six40/TTNavigator.h"
 
 // UINavigator
-#import "Three20UINavigator/TTURLMap.h"
+#import "Six40/TTURLMap.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -46,5 +46,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG( UINSObjectAdditions )

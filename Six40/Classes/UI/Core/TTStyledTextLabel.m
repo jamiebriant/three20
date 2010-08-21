@@ -14,30 +14,30 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTStyledTextLabel.h"
+#import "Six40/TTStyledTextLabel.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTTableView.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTTableView.h"
+#import "Six40/UIViewAdditions.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTStyledText.h"
-#import "Three20Style/TTStyledNode.h"
-#import "Three20Style/TTStyleSheet.h"
-#import "Three20Style/TTStyledElement.h"
-#import "Three20Style/TTStyledLinkNode.h"
-#import "Three20Style/TTStyledButtonNode.h"
-#import "Three20Style/TTStyledTextNode.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTStyledText.h"
+#import "Six40/TTStyledNode.h"
+#import "Six40/TTStyleSheet.h"
+#import "Six40/TTStyledElement.h"
+#import "Six40/TTStyledLinkNode.h"
+#import "Six40/TTStyledButtonNode.h"
+#import "Six40/TTStyledTextNode.h"
 
 // - Styled frames
-#import "Three20Style/TTStyledInlineFrame.h"
-#import "Three20Style/TTStyledTextFrame.h"
+#import "Six40/TTStyledInlineFrame.h"
+#import "Six40/TTStyledTextFrame.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTDebug.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTDebug.h"
 
 static const CGFloat kCancelHighlightThreshold = 4;
 

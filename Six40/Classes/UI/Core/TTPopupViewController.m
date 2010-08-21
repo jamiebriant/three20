@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTPopupViewController.h"
+#import "Six40/TTPopupViewController.h"
 
 // UICommon
-#import "Three20UICommon/UIViewControllerAdditions.h"
+#import "Six40/UIViewControllerAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

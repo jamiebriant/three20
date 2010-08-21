@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTButtonContent.h"
+#import "Six40/TTButtonContent.h"
 
 // Network
-#import "Three20Network/TTURLImageResponse.h"
-#import "Three20Network/TTURLCache.h"
-#import "Three20Network/TTURLRequest.h"
+#import "Six40/TTURLImageResponse.h"
+#import "Six40/TTURLCache.h"
+#import "Six40/TTURLRequest.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

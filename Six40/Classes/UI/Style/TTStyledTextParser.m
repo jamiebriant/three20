@@ -14,23 +14,23 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTStyledTextParser.h"
+#import "Six40/TTStyledTextParser.h"
 
 // Style
-#import "Three20Style/TTStyledElement.h"
-#import "Three20Style/TTStyledTextNode.h"
-#import "Three20Style/TTStyledInline.h"
-#import "Three20Style/TTStyledBlock.h"
-#import "Three20Style/TTStyledLineBreakNode.h"
-#import "Three20Style/TTStyledBoldNode.h"
-#import "Three20Style/TTStyledButtonNode.h"
-#import "Three20Style/TTStyledLinkNode.h"
-#import "Three20Style/TTStyledItalicNode.h"
-#import "Three20Style/TTStyledImageNode.h"
+#import "Six40/TTStyledElement.h"
+#import "Six40/TTStyledTextNode.h"
+#import "Six40/TTStyledInline.h"
+#import "Six40/TTStyledBlock.h"
+#import "Six40/TTStyledLineBreakNode.h"
+#import "Six40/TTStyledBoldNode.h"
+#import "Six40/TTStyledButtonNode.h"
+#import "Six40/TTStyledLinkNode.h"
+#import "Six40/TTStyledItalicNode.h"
+#import "Six40/TTStyledImageNode.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
-#import "Three20Core/TTDebug.h"
+#import "Six40/TTCorePreprocessorMacros.h"
+#import "Six40/TTDebug.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

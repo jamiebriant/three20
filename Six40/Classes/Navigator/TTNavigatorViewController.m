@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Three20UINavigator/TTNavigatorViewController.h"
+#import "Six40/TTNavigatorViewController.h"
 
 // UINavigator (private)
-#import "Three20UINavigator/private/UIViewController+TTNavigatorGarbageCollection.h"
+#import "Six40/UIViewController+TTNavigatorGarbageCollection.h"
 
 // Core
-#import "Three20Core/TTDebug.h"
-#import "Three20Core/TTDebugFlags.h"
+#import "Six40/TTDebug.h"
+#import "Six40/TTDebugFlags.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

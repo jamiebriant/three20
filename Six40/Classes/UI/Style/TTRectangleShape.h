@@ -15,7 +15,7 @@
 //
 
 // Style
-#import "Three20Style/TTShape.h"
+#import "Six40/TTShape.h"
 
 @interface TTRectangleShape : TTShape
 

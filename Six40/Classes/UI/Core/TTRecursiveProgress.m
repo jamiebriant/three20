@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTRecursiveProgress.h"
+#import "Six40/TTRecursiveProgress.h"
 
 // Core
-#import "Three20Core/TTDebug.h"
+#import "Six40/TTDebug.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

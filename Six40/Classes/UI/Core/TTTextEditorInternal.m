@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTextEditorInternal.h"
+#import "Six40/TTTextEditorInternal.h"
 
 // UI
-#import "Three20UI/TTTextEditorDelegate.h"
+#import "Six40/TTTextEditorDelegate.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

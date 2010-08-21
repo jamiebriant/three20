@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTTabBar.h"
+#import "Six40/TTTabBar.h"
 
 @interface TTTabStrip : TTTabBar {
   TTView*       _overflowLeft;

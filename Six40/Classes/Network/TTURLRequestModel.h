@@ -15,8 +15,8 @@
 //
 
 // Network
-#import "Three20Network/TTModel.h"
-#import "Three20Network/TTURLRequestDelegate.h"
+#import "Six40/TTModel.h"
+#import "Six40/TTURLRequestDelegate.h"
 
 /**
  * An implementation of TTModel which is built to work with TTURLRequests.

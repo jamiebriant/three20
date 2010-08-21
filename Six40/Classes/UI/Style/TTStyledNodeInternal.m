@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTStyledNodeInternal.h"
+#import "Six40/TTStyledNodeInternal.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,5 +37,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(TTStyledNode_TTInteralAdditions)

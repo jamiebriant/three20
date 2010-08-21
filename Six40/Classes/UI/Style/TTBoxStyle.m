@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTBoxStyle.h"
+#import "Six40/TTBoxStyle.h"
 
 // Style
-#import "Three20Style/TTStyleContext.h"
+#import "Six40/TTStyleContext.h"
 
 // Core
-#import "Three20Core/TTGlobalCoreRects.h"
+#import "Six40/TTGlobalCoreRects.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

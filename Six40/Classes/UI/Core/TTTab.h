@@ -15,7 +15,7 @@
 //
 
 // UI
-#import "Three20UI/TTButton.h"
+#import "Six40/TTButton.h"
 
 @class TTTabItem;
 @class TTLabel;

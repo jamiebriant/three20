@@ -14,10 +14,10 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTextView.h"
+#import "Six40/TTTextView.h"
 
 // UI
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/UIViewAdditions.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

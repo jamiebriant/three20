@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTAlertViewController.h"
+#import "Six40/TTAlertViewController.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
-#import "Three20UI/TTAlertViewControllerDelegate.h"
-#import "Three20UI/TTAlertView.h"
+#import "Six40/TTNavigator.h"
+#import "Six40/TTAlertViewControllerDelegate.h"
+#import "Six40/TTAlertView.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

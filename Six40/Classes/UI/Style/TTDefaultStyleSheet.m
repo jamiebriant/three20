@@ -14,42 +14,42 @@
 // limitations under the License.
 //
 
-#import "Three20Style/TTDefaultStyleSheet.h"
+#import "Six40/TTDefaultStyleSheet.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTStyle.h"
-#import "Three20Style/UIColorAdditions.h"
-#import "Three20Style/TTDefaultStyleSheet+DragRefreshHeader.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTStyle.h"
+#import "Six40/UIColorAdditions.h"
+#import "Six40/TTDefaultStyleSheet+DragRefreshHeader.h"
 
 // - Styles
-#import "Three20Style/TTInsetStyle.h"
-#import "Three20Style/TTShapeStyle.h"
-#import "Three20Style/TTSolidFillStyle.h"
-#import "Three20Style/TTTextStyle.h"
-#import "Three20Style/TTImageStyle.h"
-#import "Three20Style/TTSolidBorderStyle.h"
-#import "Three20Style/TTShadowStyle.h"
-#import "Three20Style/TTInnerShadowStyle.h"
-#import "Three20Style/TTBevelBorderStyle.h"
-#import "Three20Style/TTLinearGradientFillStyle.h"
-#import "Three20Style/TTFourBorderStyle.h"
-#import "Three20Style/TTLinearGradientBorderStyle.h"
-#import "Three20Style/TTReflectiveFillStyle.h"
-#import "Three20Style/TTBoxStyle.h"
-#import "Three20Style/TTPartStyle.h"
-#import "Three20Style/TTContentStyle.h"
-#import "Three20Style/TTBlendStyle.h"
+#import "Six40/TTInsetStyle.h"
+#import "Six40/TTShapeStyle.h"
+#import "Six40/TTSolidFillStyle.h"
+#import "Six40/TTTextStyle.h"
+#import "Six40/TTImageStyle.h"
+#import "Six40/TTSolidBorderStyle.h"
+#import "Six40/TTShadowStyle.h"
+#import "Six40/TTInnerShadowStyle.h"
+#import "Six40/TTBevelBorderStyle.h"
+#import "Six40/TTLinearGradientFillStyle.h"
+#import "Six40/TTFourBorderStyle.h"
+#import "Six40/TTLinearGradientBorderStyle.h"
+#import "Six40/TTReflectiveFillStyle.h"
+#import "Six40/TTBoxStyle.h"
+#import "Six40/TTPartStyle.h"
+#import "Six40/TTContentStyle.h"
+#import "Six40/TTBlendStyle.h"
 
 // - Shapes
-#import "Three20Style/TTRectangleShape.h"
-#import "Three20Style/TTRoundedRectangleShape.h"
-#import "Three20Style/TTRoundedLeftArrowShape.h"
-#import "Three20Style/TTRoundedRightArrowShape.h"
+#import "Six40/TTRectangleShape.h"
+#import "Six40/TTRoundedRectangleShape.h"
+#import "Six40/TTRoundedLeftArrowShape.h"
+#import "Six40/TTRoundedRightArrowShape.h"
 
 // Network
-#import "Three20Network/TTGlobalNetwork.h"
-#import "Three20Network/TTURLCache.h"
+#import "Six40/TTGlobalNetwork.h"
+#import "Six40/TTURLCache.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

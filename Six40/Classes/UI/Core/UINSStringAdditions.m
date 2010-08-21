@@ -12,15 +12,15 @@
 // License for the specific language governing permissions and limitations
 // under the License.
 
-#import "Three20UI/UINSStringAdditions.h"
+#import "Six40/UINSStringAdditions.h"
 
 // UI
-#import "Three20UI/TTNavigator.h"
+#import "Six40/TTNavigator.h"
 
 // UINavigator
-#import "Three20UINavigator/TTURLAction.h"
-#import "Three20UINavigator/TTURLMap.h"
-#import "Three20UINavigator/TTURLObject.h"
+#import "Six40/TTURLAction.h"
+#import "Six40/TTURLMap.h"
+#import "Six40/TTURLObject.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -56,5 +56,5 @@
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(UINSStringAdditions)

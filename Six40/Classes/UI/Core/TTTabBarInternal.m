@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTabBarInternal.h"
+#import "Six40/TTTabBarInternal.h"
 
 // UI
-#import "Three20UI/TTTab.h"
-#import "Three20UI/UIViewAdditions.h"
+#import "Six40/TTTab.h"
+#import "Six40/UIViewAdditions.h"
 
         CGFloat   kTabMargin      = 10;
 const   NSInteger kMaxBadgeNumber = 99;
@@ -89,5 +89,5 @@ static  CGFloat   kPadding        = 10;
 
 @end
 
-#import "Three20Core/CategoryFix.h"
+#import "Six40/CategoryFix.h"
 FIX_CATEGORY_BUG(TTTabBarTTInternalAdditions)

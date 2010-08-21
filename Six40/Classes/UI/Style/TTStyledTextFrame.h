@@ -15,7 +15,7 @@
 //
 
 // Style
-#import "Three20Style/TTStyledFrame.h"
+#import "Six40/TTStyledFrame.h"
 
 @class TTStyledTextNode;
 

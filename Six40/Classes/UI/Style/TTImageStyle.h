@@ -15,7 +15,7 @@
 //
 
 // Style
-#import "Three20Style/TTStyle.h"
+#import "Six40/TTStyle.h"
 
 @interface TTImageStyle : TTStyle {
   NSString*         _imageURL;

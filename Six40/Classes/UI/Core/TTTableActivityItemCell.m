@@ -14,14 +14,14 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableActivityItemCell.h"
+#import "Six40/TTTableActivityItemCell.h"
 
 // UI
-#import "Three20UI/TTActivityLabel.h"
-#import "Three20UI/TTTableActivityItem.h"
+#import "Six40/TTActivityLabel.h"
+#import "Six40/TTTableActivityItem.h"
 
 // Core
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////

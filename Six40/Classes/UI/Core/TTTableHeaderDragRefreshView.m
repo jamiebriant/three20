@@ -14,18 +14,18 @@
 // limitations under the License.
 //
 
-#import "Three20UI/TTTableHeaderDragRefreshView.h"
+#import "Six40/TTTableHeaderDragRefreshView.h"
 
 // Style
-#import "Three20Style/TTGlobalStyle.h"
-#import "Three20Style/TTDefaultStyleSheet+DragRefreshHeader.h"
+#import "Six40/TTGlobalStyle.h"
+#import "Six40/TTDefaultStyleSheet+DragRefreshHeader.h"
 
 // Network
-#import "Three20Network/TTURLCache.h"
+#import "Six40/TTURLCache.h"
 
 // Core
-#import "Three20Core/TTGlobalCoreLocale.h"
-#import "Three20Core/TTCorePreprocessorMacros.h"
+#import "Six40/TTGlobalCoreLocale.h"
+#import "Six40/TTCorePreprocessorMacros.h"
 
 #import <QuartzCore/QuartzCore.h>
 
