@@ -1,7 +1,8 @@
 Three20
 =======
 
-**IMPORTANT**
+IMPORTANT
+---------
 
 ** This is a customized version of three20. It is no longer just a branch of three20 with iOS 4 stuff - its now probably BinaryFinery specific. You are welcome to use it as per its license agreement,
 but it is unlikely that it will work as you expect. **
