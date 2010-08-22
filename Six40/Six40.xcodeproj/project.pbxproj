@@ -503,7 +503,6 @@
 		7DF32FD41220901C00F16A0F /* UIImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF32DE61220901C00F16A0F /* UIImageAdditions.m */; };
 		7DF331301220A0E300F16A0F /* Six40+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF3312D1220A0E300F16A0F /* Six40+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DF331311220A0E300F16A0F /* Six40.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF3312E1220A0E300F16A0F /* Six40.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DF331321220A0E300F16A0F /* Six40_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 7DF3312F1220A0E300F16A0F /* Six40_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DF332391220AA0900F16A0F /* extThree20JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF332291220AA0900F16A0F /* extThree20JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DF3323A1220AA0900F16A0F /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF3322A1220AA0900F16A0F /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DF3323B1220AA0900F16A0F /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF3322B1220AA0900F16A0F /* NSObject+SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1019,7 +1018,6 @@
 		7DF32DE61220901C00F16A0F /* UIImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAdditions.m; sourceTree = "<group>"; };
 		7DF3312D1220A0E300F16A0F /* Six40+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Six40+Additions.h"; path = "MasterHeaders/Six40+Additions.h"; sourceTree = "<group>"; };
 		7DF3312E1220A0E300F16A0F /* Six40.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Six40.h; path = MasterHeaders/Six40.h; sourceTree = "<group>"; };
-		7DF3312F1220A0E300F16A0F /* Six40_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Six40_Prefix.pch; path = MasterHeaders/Six40_Prefix.pch; sourceTree = "<group>"; };
 		7DF332291220AA0900F16A0F /* extThree20JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extThree20JSON.h; sourceTree = "<group>"; };
 		7DF3322A1220AA0900F16A0F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		7DF3322B1220AA0900F16A0F /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -1642,7 +1640,6 @@
 			children = (
 				7DF3312D1220A0E300F16A0F /* Six40+Additions.h */,
 				7DF3312E1220A0E300F16A0F /* Six40.h */,
-				7DF3312F1220A0E300F16A0F /* Six40_Prefix.pch */,
 			);
 			name = MasterHeaders;
 			sourceTree = "<group>";
@@ -1953,7 +1950,6 @@
 				7DF32FD31220901C00F16A0F /* UIImageAdditions.h in Headers */,
 				7DF331301220A0E300F16A0F /* Six40+Additions.h in Headers */,
 				7DF331311220A0E300F16A0F /* Six40.h in Headers */,
-				7DF331321220A0E300F16A0F /* Six40_Prefix.pch in Headers */,
 				7DF332391220AA0900F16A0F /* extThree20JSON.h in Headers */,
 				7DF3323A1220AA0900F16A0F /* JSON.h in Headers */,
 				7DF3323B1220AA0900F16A0F /* NSObject+SBJSON.h in Headers */,
