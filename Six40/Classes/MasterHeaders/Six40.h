@@ -71,3 +71,5 @@
 
 // UI
 #import "Six40/Three20UI.h"
+
+#import "Six40/TTURLJSONResponse.h"

@@ -43,3 +43,5 @@
 }
 
 @end
+
+FIX_CATEGORY_BUG(NSString_SBJSON)

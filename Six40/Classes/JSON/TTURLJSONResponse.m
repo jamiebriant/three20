@@ -54,13 +54,9 @@
   TTDASSERT(nil == _rootObject);
 
   if ([data isKindOfClass:[NSData class]]) {
-#ifdef EXTJSON_SBJSON
     NSString* json = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     _rootObject = [[json JSONValue] retain];
     TT_RELEASE_SAFELY(json);
-#elif defined(EXTJSON_YAJL)
-    _rootObject = [[data yajl_JSON] retain];
-#endif
   }
 
   return nil;

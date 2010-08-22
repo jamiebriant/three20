@@ -7,6 +7,6 @@
   #import <Foundation/Foundation.h>
   #import <CoreData/CoreData.h>
   #import <UIKit/UIKit.h>
-
+  #import "Six40/CategoryFix.h"
 
 #endif
