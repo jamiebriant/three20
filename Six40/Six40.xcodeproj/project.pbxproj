@@ -2198,6 +2198,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = ../Headers;
 				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
@@ -2212,6 +2213,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = ../Headers;
 				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
