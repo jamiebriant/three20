@@ -1,0 +1,162 @@
+//
+// Copyright 2009-2010 Facebook
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//    http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+#import "BFFURLRequestModel.h"
+
+// Network
+#import "BFFURLRequest.h"
+#import "BFFURLRequestQueue.h"
+#import "BFFURLCache.h"
+
+// Core
+#import "BFFCorePreprocessorMacros.h"
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+@implementation BFFURLRequestModel
+
+@synthesize loadedTime  = _loadedTime;
+@synthesize cacheKey    = _cacheKey;
+@synthesize hasNoMore   = _hasNoMore;
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)dealloc {
+  [[BFFURLRequestQueue mainQueue] cancelRequestsWithDelegate:self];
+  [_loadingRequest cancel];
+
+  BFF_RELEASE_SAFELY(_loadingRequest);
+  BFF_RELEASE_SAFELY(_loadedTime);
+  BFF_RELEASE_SAFELY(_cacheKey);
+
+  [super dealloc];
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)reset {
+  BFF_RELEASE_SAFELY(_cacheKey);
+  BFF_RELEASE_SAFELY(_loadedTime);
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark BFFModel
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)isLoaded {
+  return !!_loadedTime;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)isLoading {
+  return !!_loadingRequest;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)isLoadingMore {
+  return _isLoadingMore;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)isOutdated {
+  if (nil == _cacheKey) {
+    return nil != _loadedTime;
+
+  } else {
+    NSDate* loadedTime = self.loadedTime;
+
+    if (nil != loadedTime) {
+      return -[loadedTime timeIntervalSinceNow] > [BFFURLCache sharedCache].invalidationAge;
+
+    } else {
+      return NO;
+    }
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)cancel {
+  [_loadingRequest cancel];
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)invalidate:(BOOL)erase {
+  if (nil != _cacheKey) {
+    if (erase) {
+      [[BFFURLCache sharedCache] removeKey:_cacheKey];
+
+    } else {
+      [[BFFURLCache sharedCache] invalidateKey:_cacheKey];
+    }
+
+    BFF_RELEASE_SAFELY(_cacheKey);
+  }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark -
+#pragma mark BFFURLRequestDelegate
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)requestDidStartLoad:(BFFURLRequest*)request {
+  [_loadingRequest release];
+  _loadingRequest = [request retain];
+  [self didStartLoad];
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)requestDidFinishLoad:(BFFURLRequest*)request {
+  if (!self.isLoadingMore) {
+    [_loadedTime release];
+    _loadedTime = [request.timestamp retain];
+    self.cacheKey = request.cacheKey;
+  }
+
+  BFF_RELEASE_SAFELY(_loadingRequest);
+  [self didFinishLoad];
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)request:(BFFURLRequest*)request didFailLoadWithError:(NSError*)error {
+  BFF_RELEASE_SAFELY(_loadingRequest);
+  [self didFailLoadWithError:error];
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+- (void)requestDidCancelLoad:(BFFURLRequest*)request {
+  BFF_RELEASE_SAFELY(_loadingRequest);
+  [self didCancelLoad];
+}
+
+
+@end
