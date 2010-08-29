@@ -10,7 +10,9 @@
 @class MKMapView;
 
 @interface BFFMapKitTableCell : BFFTableViewCell {
-    MKMapView*          _control;
+  MKMapView*      _control;
+  id              _object;
+  bool            _needsUpdate;
 }
 
 @end
